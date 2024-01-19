@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Vapor 4 and Tailwind CSS</title>
+    <link rel="stylesheet" href="/styles/app.generated.css" />
+</head>
+
+<body>
+    <div class="bg-cover bg-center" style="background-image: url(/images/background.jpg)">
+        <div class="flex h-screen justify-center p-24">
+            <div class="text-center">
+                <div class="flex items-center justify-between text-8xl text-white">
+                    <h1 class="big pr-4">Big</h1>
+                    <h1 class="pancake pr-4">Pancake</h1>
+                    <img src="/images/map.svg" />
+                </div>
+            </div>
+        </div>
+        <footer class="text-white text-center sticky bottom-1">Photo by <a href="https://unsplash.com/@sammoghadamkhamseh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sam Moghadam Khamseh</a> on <a href="https://unsplash.com/photos/pancakes-with-strawberries-and-blueberries-on-top-yxZSAjyToP4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </footer>
+    </div>
+</body>
+
+</html>
